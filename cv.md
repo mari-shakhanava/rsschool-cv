@@ -23,9 +23,10 @@ JavaScript/Front-end
 
 
 ## **Work Experience**
-April 2013 - present
-Appraiser,
-IPM-Consult Group
+#### April 2013 - present
+
+**Appraiser,IPM-Consult Group**
+
 * _Certificates in evaluation of_
 	* business
 	* land
