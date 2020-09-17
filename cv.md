@@ -47,3 +47,18 @@ function factorial(n)
   return (n ? n * factorial(n - 1) : 1);
   }
   ```
+## **Personal qualities** 
+	self-motivated
+	responsible
+	analytical mind
+	teamwork
+	
+## **About me**
+	active lifestyle
+	civic-minded
+	sport lover (gym, workout, bike, balance and other)
+	lover of findig out smth new, getting skills, experiences
+	erudite
+		
+## **English**
+Intermediate, B1
