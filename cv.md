@@ -26,12 +26,12 @@ JavaScript/Front-end
 April 2013 - present
 Appraiser,
 IPM-Consult Group
-_Certificates in evaluation of_
-*business
-*land
-*real estate
-*equipment and transport
-*intellectual property
+* _Certificates in evaluation of_
+	* business
+	* land
+	* real estate
+	* equipment and transport
+	* intellectual property
 
 ## **Skills**
 basic HTML, basic CSS, basic JS
@@ -48,17 +48,17 @@ function factorial(n)
   }
   ```
 ## **Personal qualities** 
-	self-motivated
-	responsible
-	analytical mind
-	teamwork
+* self-motivated
+* responsible
+* analytical mind
+* teamwork
 	
 ## **About me**
-	active lifestyle
-	civic-minded
-	sport lover (gym, workout, bike, balance and other)
-	lover of findig out smth new, getting skills, experiences
-	erudite
+* active lifestyle
+* civic-minded
+* sport lover (gym, workout, bike, balance and other)
+* lover of findig out smth new, getting skills, experiences
+* erudite
 		
 ## **English**
 Intermediate, B1
