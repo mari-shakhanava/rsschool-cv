@@ -1,0 +1,130 @@
+/*header CSS*/
+
+.header{
+    height: 80px;
+    background: #767681;
+}
+
+.main_content{
+    max-width: 1258px;
+    margin: auto;
+    font-family: Rubik, sans-serif;
+}
+
+/*main_info block*/
+
+.main_info{
+    height: 280px;
+    background-color: #DCDAE9;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main_info__pic{
+    margin-right: 45px;
+}
+
+.avatar{
+    height: 250px;
+    border-radius: 140px;
+}
+
+.main_info__text{
+    flex: 1;
+}
+
+.main_info__text h1{
+    font-size: 55px;
+}
+
+.main_info__text p:first-of-type {
+    font-size: 18px;
+    font-style: italic;
+    color: slategrey;
+    margin-bottom: 20px;
+}
+
+.main_info__text p{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.main_info__contacts{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: end;
+    align-self: flex-end;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+/*main_content block*/
+
+.main_content__details{
+    background-color: rgba(220, 218, 233, 0.5);
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 20px;
+    line-height: 22px;
+
+}
+
+.main_content__details__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main_content__details__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main_content__details h2{
+    font-size: 30px;
+    line-height: 25px;
+    color: #727071;
+    font-weight: bold;
+    margin: 10px 0px 10px 0px;
+    text-align: left;
+}
+
+.main_content__details ol{
+    list-style-type: circle;
+}
+
+.about_me{
+    display: flex;
+    flex-direction: column;
+}
+
+.about_me_img img{
+    height: 50px;
+    padding-top: 10px;
+}
+
+
+.work_exp_date{
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.work_exp_name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/*footer CSS*/
+.footer{
+    height: 80px;
+    background: #767681;
+}
