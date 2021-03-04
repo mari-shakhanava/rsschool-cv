@@ -1,29 +1,39 @@
-/*header CSS*/
+/*all CSS*/
 
-.header{
-    height: 80px;
-    background: #767681;
-}
-
-.main_content{
-    max-width: 1258px;
-    margin: auto;
+html, body {
+    margin: 0 auto;
     font-family: Rubik, sans-serif;
 }
 
-/*main_info block*/
-
-.main_info{
-    height: 280px;
-    background-color: #DCDAE9;
-    padding: 50px 30px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.content{
+    width: 1250px;
+    margin: 0 auto;
 }
 
-.main_info__pic{
-    margin-right: 45px;
+.listType{
+    list-style-type: circle;
+}
+
+.icon{
+    height: 45px;
+}
+
+/*header CSS*/
+.header{
+    background-color: #DCDAE9;
+}
+
+.header_back{
+    background-color: #767681;
+    padding-top: 60px;
+}
+
+/*main_info block*/
+.main_info{
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .avatar{
@@ -31,46 +41,60 @@
     border-radius: 140px;
 }
 
-.main_info__text{
-    flex: 1;
-}
-
 .main_info__text h1{
     font-size: 55px;
 }
 
-.main_info__text p:first-of-type {
+.main_info__text h3{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.main_info__text p {
     font-size: 18px;
     font-style: italic;
     color: slategrey;
     margin-bottom: 20px;
 }
 
-.main_info__text p{
-    font-size: 20px;
-    line-height: 25px;
-}
-
 .main_info__contacts{
     margin-left: 50px;
     margin-right: 50px;
-    text-align: end;
     align-self: flex-end;
     font-size: 20px;
     line-height: 25px;
     font-weight: bold;
 }
 
+.contacts_item{
+    margin-top: 10px;
+}
+
+.links{
+    text-decoration: none;
+    color: #767681;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+
 /*main_content block*/
+.main_content{
+    background-color: rgba(220, 218, 233, 0.5);
+}
 
 .main_content__details{
-    background-color: rgba(220, 218, 233, 0.5);
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     text-align: left;
-    padding: 20px;
+    padding: 50px 30px;
     line-height: 22px;
-
 }
 
 .main_content__details__left{
@@ -85,18 +109,15 @@
     justify-content: space-around;
 }
 
-.main_content__details h2{
+h2{
     font-size: 30px;
     line-height: 25px;
     color: #727071;
     font-weight: bold;
-    margin: 10px 0px 10px 0px;
+    margin: 15px 0 15px 0;
     text-align: left;
 }
 
-.main_content__details ol{
-    list-style-type: circle;
-}
 
 .about_me{
     display: flex;
@@ -114,7 +135,6 @@
     font-size: 20px;
     font-style: italic;
     font-weight: bold;
-
 }
 
 .work_exp_name{
@@ -122,9 +142,92 @@
     font-weight: bold;
 }
 
+.pre{
+    font-family: monospace;
+    display: block;
+    white-space: pre;
+    background-color: #f2f2f2;
+}
 
 /*footer CSS*/
 .footer{
-    height: 80px;
     background: #767681;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 30px 0;
 }
+
+
+.footerWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1243px) and (min-width: 768px) {
+    .content{
+        width: 680px;
+    }
+
+    .icon{
+        height: 30px;
+    }
+
+    .main_info {
+        padding: 25px 10px;
+    }
+
+    .main_info__text h1{
+        font-size: 28px;
+    }
+
+    .main_info__text h3{
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    .main_info__text p {
+        font-size: 16px;
+        font-style: italic;
+        color: slategrey;
+        margin-bottom: 15px;
+    }
+
+    .main_info__contacts{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 16px;
+    }
+
+    .links{
+        width: 115px;
+    }
+
+    .main_content__details{
+        padding: 20px 10px;
+        line-height: 18px;
+        font-size: 14px;
+    }
+
+    h2{
+        font-size: 20px;
+        line-height: 18px;
+        margin: 10px 0 10px 0;
+    }
+
+    .work_exp_date{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .work_exp_name{
+        font-size: 16px;
+    }
+
+}
+
+
+
+
