@@ -1,13 +1,13 @@
-/*all CSS*/
-
 html, body {
     margin: 0 auto;
     font-family: Rubik, sans-serif;
+    color: #22202C;
 }
 
 .content{
     width: 1250px;
     margin: 0 auto;
+    padding: 50px 30px;
 }
 
 .listType{
@@ -18,19 +18,11 @@ html, body {
     height: 45px;
 }
 
-/*header CSS*/
 .header{
     background-color: #DCDAE9;
 }
 
-.header_back{
-    background-color: #767681;
-    padding-top: 60px;
-}
-
-/*main_info block*/
 .main_info{
-    padding: 50px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,8 +74,6 @@ html, body {
     width: 150px;
 }
 
-
-/*main_content block*/
 .main_content{
     background-color: rgba(220, 218, 233, 0.5);
 }
@@ -93,7 +83,6 @@ html, body {
     justify-content: space-around;
     flex-wrap: wrap;
     text-align: left;
-    padding: 50px 30px;
     line-height: 22px;
 }
 
@@ -129,7 +118,6 @@ h2{
     padding-top: 10px;
 }
 
-
 .work_exp_date{
     margin-top: 20px;
     font-size: 20px;
@@ -149,12 +137,10 @@ h2{
     background-color: #f2f2f2;
 }
 
-/*footer CSS*/
 .footer{
     background: #767681;
     font-size: 14px;
     font-weight: 700;
-    padding: 30px 0;
 }
 
 
@@ -168,14 +154,11 @@ h2{
 @media screen and (max-width: 1243px) and (min-width: 768px) {
     .content{
         width: 680px;
+        padding: 25px 10px;
     }
 
     .icon{
         height: 30px;
-    }
-
-    .main_info {
-        padding: 25px 10px;
     }
 
     .main_info__text h1{
@@ -206,7 +189,6 @@ h2{
     }
 
     .main_content__details{
-        padding: 20px 10px;
         line-height: 18px;
         font-size: 14px;
     }
@@ -225,7 +207,6 @@ h2{
     .work_exp_name{
         font-size: 16px;
     }
-
 }
 
 
